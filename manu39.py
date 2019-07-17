@@ -1,9 +1,9 @@
-a1,b1=map(str,input().split())
-for i in range(len(a1)):
-    if(a1.count(a1[i])==b1.count(b1[i])):
-        print("Yes")
-        break
-    else:
-        print("No")
-        break
-
+a1,b1=input().split()
+for i in a1:
+    c1=a1.count(i)
+for j in b1:
+    d1=b1.count(j)
+if c1==d1:
+    print("yes")
+else:
+    print("no")
